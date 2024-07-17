@@ -14,7 +14,7 @@ require (
 	github.com/pkg/errors v0.9.1
 	github.com/prometheus/client_model v0.2.0
 	github.com/prometheus/common v0.37.0
-	github.com/samber/lo v1.28.2
+	github.com/samber/lo v1.46.0
 	github.com/shaj13/go-guardian/v2 v2.11.5
 	github.com/wrouesnel/multihttp v1.0.0
 	go.uber.org/zap v1.23.0
@@ -38,6 +38,7 @@ require (
 	go.uber.org/atomic v1.10.0 // indirect
 	go.uber.org/multierr v1.8.0 // indirect
 	golang.org/x/exp v0.0.0-20220722155223-a9213eeb770e // indirect
+	golang.org/x/text v0.16.0 // indirect
 	google.golang.org/protobuf v1.28.1 // indirect
 	gotest.tools/v3 v3.3.0 // indirect
 )

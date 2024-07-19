@@ -1,14 +1,14 @@
+---
 web:
   listen:
     - tcp://0.0.0.0:9998
-
 reverse_exporters:
-- path: /metrics
-  exporters:
-    http:
-    - name: gcp-cloud-status-exporter
-      address: http://127.0.0.1:8888/metrics
-    - name: firebase-status-exporter
-      address: http://127.0.0.1:8889/metrics
-    - name: google-places-status-exporter
-      address: http://127.0.0.1:8890/metrics
+  - path: /metrics
+    exporters:
+      http:
+        - name: gcp-cloud-status-exporter
+          address: http://127.0.0.1:8888/metrics
+        - name: firebase-status-exporter
+          address: http://127.0.0.1:8889/metrics
+        - name: google-places-status-exporter
+          address: http://127.0.0.1:8890/metrics

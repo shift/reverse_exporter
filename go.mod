@@ -1,6 +1,6 @@
 module github.com/wrouesnel/reverse_exporter
 
-go 1.18
+go 1.24.0
 
 require (
 	github.com/alecthomas/kong v0.9.0
@@ -12,8 +12,8 @@ require (
 	github.com/mitchellh/mapstructure v1.5.0
 	github.com/moby/moby v20.10.27+incompatible
 	github.com/pkg/errors v0.9.1
-	github.com/prometheus/client_model v0.6.1
-	github.com/prometheus/common v0.37.0
+	github.com/prometheus/client_model v0.6.2
+	github.com/prometheus/common v0.67.5
 	github.com/samber/lo v1.46.0
 	github.com/shaj13/go-guardian/v2 v2.11.5
 	github.com/wrouesnel/multihttp v1.0.0
@@ -30,15 +30,17 @@ require (
 	github.com/kr/pretty v0.3.0 // indirect
 	github.com/kr/text v0.2.0 // indirect
 	github.com/matttproud/golang_protobuf_extensions v1.0.1 // indirect
+	github.com/munnerz/goautoneg v0.0.0-20191010083416-a7dc8b61c822 // indirect
 	github.com/nwaples/rardecode v1.1.3 // indirect
 	github.com/pierrec/lz4 v2.6.1+incompatible // indirect
-	github.com/rogpeppe/go-internal v1.8.1 // indirect
+	github.com/rogpeppe/go-internal v1.10.0 // indirect
 	github.com/ulikunitz/xz v0.5.10 // indirect
 	github.com/xi2/xz v0.0.0-20171230120015-48954b6210f8 // indirect
 	go.uber.org/atomic v1.10.0 // indirect
 	go.uber.org/multierr v1.8.0 // indirect
+	go.yaml.in/yaml/v2 v2.4.3 // indirect
 	golang.org/x/exp v0.0.0-20220722155223-a9213eeb770e // indirect
-	golang.org/x/text v0.16.0 // indirect
-	google.golang.org/protobuf v1.33.0 // indirect
+	golang.org/x/text v0.32.0 // indirect
+	google.golang.org/protobuf v1.36.11 // indirect
 	gotest.tools/v3 v3.3.0 // indirect
 )

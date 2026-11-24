@@ -1,6 +1,6 @@
 # Dockerfile for building the containerized poller_exporter
 # golang:1.18 as of 2022-07-04
-FROM golang@sha256:595c7847cff97c9a9e76f015083c481d26078f961c9c8dca3923132f51fe12f1 AS build
+FROM golang@sha256:5f1b98fa02fe396ebce2a0227a0e08309e11792915b9dd2e1f71053d7e7e6666 AS build
 
 MAINTAINER William Rouesnel <wrouesnel@wrouesnel.com>
 EXPOSE 9115
